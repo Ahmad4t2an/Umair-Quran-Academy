@@ -33,7 +33,7 @@ export default function Header() {
           ? 'shadow-[0_4px_24px_rgba(0,0,0,0.35)]'
           : ''
       }`}
-      style={{ backgroundColor: '#0E4B3A' }}
+      style={{ backgroundColor: '#133F2D' }}
     >
       {/* Subtle geometric pattern overlay */}
       <div className="absolute inset-0 pointer-events-none opacity-10 pattern-islamic" />
@@ -105,7 +105,7 @@ export default function Header() {
         className={`lg:hidden transition-all duration-300 overflow-hidden ${
           mobileOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
         }`}
-        style={{ backgroundColor: '#0a3d2e' }}
+        style={{ backgroundColor: '#0e3324' }}
       >
         <div className="container mx-auto px-4 pb-6 pt-2 flex flex-col gap-3">
           {NAV_LINKS.map((link) => (

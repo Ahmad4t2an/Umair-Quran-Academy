@@ -2,7 +2,7 @@ import { Link } from 'wouter';
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden mt-20" style={{ backgroundColor: '#0E4B3A' }}>
+    <footer className="relative overflow-hidden mt-20" style={{ backgroundColor: '#133F2D' }}>
       {/* Islamic pattern overlay */}
       <div className="absolute inset-0 pointer-events-none opacity-10 pattern-islamic" />
 

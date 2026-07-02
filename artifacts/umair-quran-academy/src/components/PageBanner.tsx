@@ -67,7 +67,7 @@ export default function PageBanner({ title, subtitle }: PageBannerProps) {
   return (
     <section
       className="relative pt-28 pb-20 overflow-hidden"
-      style={{ backgroundColor: '#0E4B3A' }}
+      style={{ backgroundColor: '#133F2D' }}
     >
       {/* Islamic geometric pattern texture */}
       <div className="absolute inset-0 pointer-events-none" style={{
@@ -162,6 +162,8 @@ export default function PageBanner({ title, subtitle }: PageBannerProps) {
       <div className="absolute bottom-0 left-0 right-0 h-12 pointer-events-none" style={{
         background: 'linear-gradient(to bottom, transparent, #FBF8F1)',
       }} />
+      {/* Ensure no horizontal overflow from decorative elements */}
+      <style>{`.page-banner-arch { overflow: hidden; }`}</style>
     </section>
   );
 }

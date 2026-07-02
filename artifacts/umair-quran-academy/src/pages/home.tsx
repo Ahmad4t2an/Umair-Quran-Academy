@@ -22,7 +22,7 @@ export default function Home() {
       {/* HERO SECTION */}
       <section
         className="relative min-h-screen flex items-center justify-center overflow-hidden"
-        style={{ backgroundColor: '#0E4B3A' }}
+        style={{ backgroundColor: '#133F2D' }}
       >
         {/* Islamic geometric tile pattern */}
         <div className="absolute inset-0 pointer-events-none" style={{
