@@ -1,4 +1,5 @@
 import { Link } from 'wouter';
+import { FaFacebookF, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -25,13 +26,35 @@ export default function Footer() {
             <p className="text-white/70 font-serif text-sm leading-relaxed mt-2">
               Bringing authentic Quranic education to Muslim families in the USA, Australia, and beyond — with certified teachers, flexible timing, and sincere dedication.
             </p>
-            {/* Social placeholders */}
+            {/* Social links */}
             <div className="flex gap-3 mt-2">
-              {['FB', 'IG', 'YT'].map(s => (
-                <span key={s} className="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold border border-[#C9A227]/40 text-[#C9A227]/60 cursor-pointer hover:border-[#C9A227] hover:text-[#C9A227] transition-colors">
-                  {s}
-                </span>
-              ))}
+              <a
+                href="https://www.facebook.com/profile.php?id=61591791351959"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="w-8 h-8 rounded-full flex items-center justify-center border border-[#C9A227]/40 text-[#C9A227]/60 hover:border-[#C9A227] hover:text-[#C9A227] transition-colors"
+              >
+                <FaFacebookF size={14} />
+              </a>
+              <a
+                href="https://www.instagram.com/umairquranacademy?igsh=djl2cmRxamR1dnds"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="w-8 h-8 rounded-full flex items-center justify-center border border-[#C9A227]/40 text-[#C9A227]/60 hover:border-[#C9A227] hover:text-[#C9A227] transition-colors"
+              >
+                <FaInstagram size={14} />
+              </a>
+              <a
+                href="https://www.youtube.com/@umairquranacademy-d2n"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube"
+                className="w-8 h-8 rounded-full flex items-center justify-center border border-[#C9A227]/40 text-[#C9A227]/60 hover:border-[#C9A227] hover:text-[#C9A227] transition-colors"
+              >
+                <FaYoutube size={14} />
+              </a>
             </div>
           </div>
 
