@@ -322,18 +322,30 @@ export default function Home() {
             </FadeIn>
             
             <FadeIn direction="left" className="relative">
-              <div className="absolute inset-0 bg-accent/5 rounded-3xl transform rotate-3"></div>
-              <div className="bg-card border border-card-border p-6 rounded-3xl shadow-lg relative grid grid-cols-2 gap-4">
-                <Link href="/credentials" className="block group">
-                  <div className="aspect-[3/4] rounded-lg overflow-hidden bg-muted border border-border">
-                    <img src="/assets/hifz-certificate.png" alt="Hifz Certificate Preview" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                  </div>
-                </Link>
-                <Link href="/credentials" className="block group mt-8">
-                  <div className="aspect-[3/4] rounded-lg overflow-hidden bg-muted border border-border shadow-md">
-                    <img src="/assets/hec-certificate.png" alt="HEC Certificate Preview" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                  </div>
-                </Link>
+              <div className="bg-card border border-card-border p-5 rounded-2xl shadow-lg relative">
+                <div className="grid grid-cols-2 gap-4">
+                  <Link href="/credentials" className="block group">
+                    <div className="rounded-lg overflow-hidden border border-border bg-muted">
+                      <img
+                        src="/assets/hifz-certificate.png"
+                        alt="Hifz Certificate"
+                        className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105"
+                      />
+                    </div>
+                    <p className="text-xs text-center text-foreground/60 mt-2 font-medium">Ijazah in Hifz-ul-Quran</p>
+                  </Link>
+                  <Link href="/credentials" className="block group">
+                    <div className="rounded-lg overflow-hidden border border-border bg-muted">
+                      <img
+                        src="/assets/hec-certificate.png"
+                        alt="HEC Certificate"
+                        className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105"
+                      />
+                    </div>
+                    <p className="text-xs text-center text-foreground/60 mt-2 font-medium">HEC Equivalence Certificate</p>
+                  </Link>
+                </div>
+                <p className="text-center text-xs text-accent font-semibold mt-4">Click to view full credentials →</p>
               </div>
             </FadeIn>
           </div>
