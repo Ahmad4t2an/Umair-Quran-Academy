@@ -288,67 +288,91 @@ export default function Home() {
         </div>
       </section>
 
-      {/* TEACHERS & CREDENTIALS PREVIEW */}
+      {/* CREDENTIALS PREVIEW */}
       <section className="py-24 bg-background">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <FadeIn direction="right">
-              <h2 className="text-3xl md:text-4xl font-bold font-serif text-primary mb-6">Expert Teachers, Formal Credentials</h2>
-              <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
-                Our faculty consists of dedicated professionals who have devoted their lives to the study and teaching of the Holy Quran. With both male and female teachers available, we ensure a comfortable environment for all students.
-              </p>
-              <ul className="space-y-4 mb-8">
-                <li className="flex items-center gap-3 text-foreground/80">
-                  <CheckCircle2 className="text-accent w-5 h-5 flex-shrink-0" />
-                  <span>Ijazah-certified Hafiz teachers</span>
-                </li>
-                <li className="flex items-center gap-3 text-foreground/80">
-                  <CheckCircle2 className="text-accent w-5 h-5 flex-shrink-0" />
-                  <span>Fluent in English for Western diaspora</span>
-                </li>
-                <li className="flex items-center gap-3 text-foreground/80">
-                  <CheckCircle2 className="text-accent w-5 h-5 flex-shrink-0" />
-                  <span>Patient, encouraging methodology</span>
-                </li>
-              </ul>
-              <div className="flex gap-4">
-                <Button asChild>
-                  <Link href="/teachers">Meet Our Teachers</Link>
-                </Button>
-                <Button asChild variant="secondary" className="bg-secondary/50 text-primary">
-                  <Link href="/credentials">View Credentials</Link>
-                </Button>
-              </div>
-            </FadeIn>
-            
-            <FadeIn direction="left" className="relative">
-              <div className="bg-card border border-card-border p-5 rounded-2xl shadow-lg relative">
-                <div className="grid grid-cols-2 gap-4">
-                  <Link href="/credentials" className="block group">
-                    <div className="rounded-lg overflow-hidden border border-border bg-muted">
-                      <img
-                        src="/assets/hifz-certificate.png"
-                        alt="Hifz Certificate"
-                        className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105"
-                      />
+        <div className="container mx-auto px-4 max-w-5xl">
+
+          <FadeIn className="text-center mb-14">
+            <h2 className="text-3xl md:text-4xl font-bold font-serif text-primary mb-4">Expert Teachers, Formal Credentials</h2>
+            <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
+              Our faculty hold internationally recognised certifications — verified, transparent, and available for you to review.
+            </p>
+          </FadeIn>
+
+          {/* Card 1 — Hifz Ijazah */}
+          <FadeIn className="mb-8">
+            <Link href="/credentials" className="block group">
+              <div className="bg-card border border-card-border rounded-2xl shadow-sm hover:shadow-md transition-shadow p-6 md:p-8">
+                <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-center md:items-start">
+                  {/* Image */}
+                  <div className="w-full md:w-64 flex-shrink-0 bg-muted rounded-xl border border-border overflow-hidden relative">
+                    <div className="absolute inset-0 border-2 border-accent/20 rounded-xl m-1 pointer-events-none z-10"></div>
+                    <img
+                      src="/assets/hifz-certificate.png"
+                      alt="Ijazah in Hifz-ul-Quran"
+                      className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-[1.03]"
+                    />
+                  </div>
+                  {/* Text */}
+                  <div className="flex-1 text-center md:text-left">
+                    <h3 className="text-2xl md:text-3xl font-bold font-serif text-primary mb-3">
+                      Certified Ijazah in Hifz-ul-Quran
+                    </h3>
+                    <div className="inline-block bg-accent/10 text-accent font-medium px-4 py-1.5 rounded-full mb-4 border border-accent/20 text-sm">
+                      Wafaq ul Madaris Al-Arabia, Pakistan
                     </div>
-                    <p className="text-xs text-center text-foreground/60 mt-2 font-medium">Ijazah in Hifz-ul-Quran</p>
-                  </Link>
-                  <Link href="/credentials" className="block group">
-                    <div className="rounded-lg overflow-hidden border border-border bg-muted">
-                      <img
-                        src="/assets/hec-certificate.png"
-                        alt="HEC Certificate"
-                        className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105"
-                      />
-                    </div>
-                    <p className="text-xs text-center text-foreground/60 mt-2 font-medium">HEC Equivalence Certificate</p>
-                  </Link>
+                    <p className="text-foreground/75 leading-relaxed">
+                      This Ijazah represents the formal permission to teach and transmit the memorisation of the Holy Quran. Issued by Wafaq ul Madaris Al-Arabia — the largest federation of Islamic seminaries in Pakistan — it guarantees the teacher's memorisation is flawless and linked to traditional scholarly standards.
+                    </p>
+                    <p className="mt-4 text-sm text-accent font-semibold group-hover:underline">View full credential →</p>
+                  </div>
                 </div>
-                <p className="text-center text-xs text-accent font-semibold mt-4">Click to view full credentials →</p>
               </div>
-            </FadeIn>
-          </div>
+            </Link>
+          </FadeIn>
+
+          {/* Card 2 — HEC Equivalence */}
+          <FadeIn className="mb-12">
+            <Link href="/credentials" className="block group">
+              <div className="bg-card border border-card-border rounded-2xl shadow-sm hover:shadow-md transition-shadow p-6 md:p-8">
+                <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-center md:items-start">
+                  {/* Image */}
+                  <div className="w-full md:w-64 flex-shrink-0 bg-muted rounded-xl border border-border overflow-hidden relative">
+                    <div className="absolute inset-0 border-2 border-accent/20 rounded-xl m-1 pointer-events-none z-10"></div>
+                    <img
+                      src="/assets/hec-certificate.png"
+                      alt="HEC Equivalence Certificate"
+                      className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-[1.03]"
+                    />
+                  </div>
+                  {/* Text */}
+                  <div className="flex-1 text-center md:text-left">
+                    <h3 className="text-2xl md:text-3xl font-bold font-serif text-primary mb-3">
+                      HEC Equivalence Certificate
+                    </h3>
+                    <div className="inline-block bg-accent/10 text-accent font-medium px-4 py-1.5 rounded-full mb-4 border border-accent/20 text-sm">
+                      Higher Education Commission, Pakistan
+                    </div>
+                    <p className="text-foreground/75 leading-relaxed">
+                      The HEC is the national academic authority in Pakistan. This certificate officially equates our teachers' specialised Islamic qualifications to a Master of Arts (M.A.) in Arabic and Islamic Studies — validating their academic rigour at a government level.
+                    </p>
+                    <p className="mt-4 text-sm text-accent font-semibold group-hover:underline">View full credential →</p>
+                  </div>
+                </div>
+              </div>
+            </Link>
+          </FadeIn>
+
+          {/* CTA buttons */}
+          <FadeIn className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button asChild>
+              <Link href="/teachers">Meet Our Teachers</Link>
+            </Button>
+            <Button asChild variant="secondary" className="bg-secondary/50 text-primary">
+              <Link href="/credentials">View All Credentials</Link>
+            </Button>
+          </FadeIn>
+
         </div>
       </section>
 
