@@ -2,6 +2,7 @@ import { SEO } from '@/components/SEO';
 import { FadeIn, StaggerContainer, StaggerItem } from '@/components/animations';
 import { ArchMotif } from '@/components/ui/IslamicMotifs';
 import { Clock, Globe2 } from 'lucide-react';
+import PageBanner from '@/components/PageBanner';
 
 const TEACHERS = [
   {
@@ -28,17 +29,7 @@ export default function Teachers() {
         description="Meet the certified, experienced Quran teachers at Umair Quran Academy. Available for families worldwide." 
       />
 
-      <section className="bg-primary pt-24 pb-16 relative overflow-hidden">
-        <div className="absolute inset-0 pattern-islamic opacity-10 pointer-events-none"></div>
-        <div className="container mx-auto px-4 relative z-10 text-center">
-          <FadeIn>
-            <h1 className="text-4xl md:text-5xl font-bold font-serif text-white mb-4">Our Teachers</h1>
-            <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto">
-              Qualified, patient, and dedicated to your family's Islamic education.
-            </p>
-          </FadeIn>
-        </div>
-      </section>
+      <PageBanner title="Our Teachers" subtitle="Qualified, patient, and dedicated to your family's Islamic education." />
 
       <section className="py-20">
         <div className="container mx-auto px-4 max-w-5xl">

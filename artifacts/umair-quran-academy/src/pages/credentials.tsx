@@ -1,5 +1,6 @@
 import { SEO } from '@/components/SEO';
 import { FadeIn, StaggerContainer, StaggerItem } from '@/components/animations';
+import PageBanner from '@/components/PageBanner';
 
 export default function Credentials() {
   return (
@@ -9,17 +10,7 @@ export default function Credentials() {
         description="View the official certifications and recognized qualifications of the educators at Umair Quran Academy." 
       />
 
-      <section className="bg-primary pt-24 pb-16 relative overflow-hidden">
-        <div className="absolute inset-0 pattern-islamic opacity-10 pointer-events-none"></div>
-        <div className="container mx-auto px-4 relative z-10 text-center">
-          <FadeIn>
-            <h1 className="text-4xl md:text-5xl font-bold font-serif text-white mb-4">Official Credentials</h1>
-            <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto">
-              Transparency and trust through verified qualifications.
-            </p>
-          </FadeIn>
-        </div>
-      </section>
+      <PageBanner title="Official Credentials" subtitle="Transparency and trust through verified qualifications." />
 
       <section className="py-20">
         <div className="container mx-auto px-4 max-w-5xl">

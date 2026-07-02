@@ -3,6 +3,7 @@ import { FadeIn, StaggerContainer, StaggerItem } from '@/components/animations';
 import { Button } from '@/components/ui/button';
 import { Link } from 'wouter';
 import { Check } from 'lucide-react';
+import PageBanner from '@/components/PageBanner';
 
 const PLANS = [
   {
@@ -55,22 +56,9 @@ export default function Pricing() {
         description="Affordable, high-quality online Quran classes. View our pricing plans for Noorani Qaida, Nazra, and Hifz." 
       />
 
-      <section className="bg-primary pt-24 pb-32 relative overflow-hidden">
-        <div className="absolute inset-0 pattern-islamic opacity-10 pointer-events-none"></div>
-        <div className="container mx-auto px-4 relative z-10 text-center">
-          <FadeIn>
-            <h1 className="text-4xl md:text-5xl font-bold font-serif text-white mb-4">Simple, Transparent Pricing</h1>
-            <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto">
-              Invest in your family's Islamic education with our structured monthly plans. All prices in USD.
-            </p>
-            <div className="mt-8 inline-block bg-accent/20 border border-accent/40 text-accent px-4 py-2 rounded-full text-sm font-medium">
-              No free trial available — advance payment required.
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+      <PageBanner title="Simple, Transparent Pricing" subtitle="Invest in your family's Islamic education. All prices in USD — advance payment required." />
 
-      <section className="-mt-16 pb-20">
+      <section className="pt-12 pb-20">
         <div className="container mx-auto px-4 max-w-6xl">
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {PLANS.map((plan) => (

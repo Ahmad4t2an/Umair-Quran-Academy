@@ -3,6 +3,7 @@ import { FadeIn, StaggerContainer, StaggerItem } from '@/components/animations';
 import { Button } from '@/components/ui/button';
 import { Link } from 'wouter';
 import { BookOpen, Book, BookMarked, AlignRight } from 'lucide-react';
+import PageBanner from '@/components/PageBanner';
 
 const COURSES = [
   {
@@ -75,8 +76,9 @@ export default function Courses() {
         description="Detailed course offerings including Noorani Qaida, Quran Nazra, Hifz-ul-Quran, and Tajweed." 
       />
 
-      <section className="bg-primary pt-24 pb-16 relative overflow-hidden">
-        <div className="absolute inset-0 pattern-islamic opacity-10 pointer-events-none"></div>
+      <PageBanner title="Our Programs" subtitle="Structured learning paths for all ages and proficiency levels." />
+
+      <section className="bg-primary pt-0 pb-0 hidden">
         <div className="container mx-auto px-4 relative z-10 text-center">
           <FadeIn>
             <h1 className="text-4xl md:text-5xl font-bold font-serif text-white mb-4">Our Programs</h1>

@@ -7,6 +7,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Phone, Mail, MapPin, Send, Loader2 } from 'lucide-react';
 import { useLocation } from 'wouter';
+import PageBanner from '@/components/PageBanner';
 
 export default function Contact() {
   const [location] = useLocation();
@@ -55,17 +56,7 @@ export default function Contact() {
         description="Get in touch with Umair Quran Academy to enroll in online Quran classes or ask any questions." 
       />
 
-      <section className="bg-primary pt-24 pb-16 relative overflow-hidden">
-        <div className="absolute inset-0 pattern-islamic opacity-10 pointer-events-none"></div>
-        <div className="container mx-auto px-4 relative z-10 text-center">
-          <FadeIn>
-            <h1 className="text-4xl md:text-5xl font-bold font-serif text-white mb-4">Contact Us</h1>
-            <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto">
-              We're here to help you begin your Quranic journey.
-            </p>
-          </FadeIn>
-        </div>
-      </section>
+      <PageBanner title="Contact Us" subtitle="We're here to help you begin your Quranic journey." />
 
       <section className="py-20">
         <div className="container mx-auto px-4 max-w-6xl">

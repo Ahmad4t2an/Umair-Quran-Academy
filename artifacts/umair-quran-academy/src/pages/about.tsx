@@ -1,6 +1,7 @@
 import { SEO } from '@/components/SEO';
 import { FadeIn, StaggerContainer, StaggerItem } from '@/components/animations';
 import { GoldDivider, CrescentStar } from '@/components/ui/IslamicMotifs';
+import PageBanner from '@/components/PageBanner';
 
 export default function About() {
   return (
@@ -10,18 +11,7 @@ export default function About() {
         description="Learn about Umair Quran Academy's mission to make authentic Quran education accessible to Muslim families worldwide." 
       />
 
-      {/* Page Header */}
-      <section className="bg-primary pt-24 pb-16 relative overflow-hidden">
-        <div className="absolute inset-0 pattern-islamic opacity-10 pointer-events-none"></div>
-        <div className="container mx-auto px-4 relative z-10 text-center">
-          <FadeIn>
-            <h1 className="text-4xl md:text-5xl font-bold font-serif text-white mb-4">About the Academy</h1>
-            <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto">
-              Preserving tradition, embracing modern convenience.
-            </p>
-          </FadeIn>
-        </div>
-      </section>
+      <PageBanner title="About the Academy" subtitle="Preserving tradition, embracing modern convenience." />
 
       {/* Story & Mission */}
       <section className="py-20">
