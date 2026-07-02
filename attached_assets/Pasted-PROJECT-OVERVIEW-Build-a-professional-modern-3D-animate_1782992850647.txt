@@ -1,0 +1,173 @@
+PROJECT OVERVIEW
+
+Build a professional, modern, 3D-animated, mobile-responsive website for an online Quran learning academy called "Umair Quran Academy." The academy teaches Quran Nazra, Hifz (memorization), and Noorani Qaida to students online, one-on-one, and targets students and parents primarily in the USA and Australia, as well as other international, English-speaking Muslim audiences.
+
+The site must feel warm, trustworthy, Islamic, and premium — not cheap or generic. Use smooth scroll animations, subtle 3D/parallax effects, and elegant transitions throughout, while keeping load speed and usability strong on mobile.
+
+
+BRAND IDENTITY
+
+
+Academy Name: Umair Quran Academy
+Logo: An Islamic-arch emblem featuring an open Quran on a rehal (book stand), a golden crescent moon and star above it, with green and gold ornamental Islamic patterns on either side. The wordmark "Umair Quran" is in a dark green serif font, with "ACADEMY" beneath it in gold small-caps, separated by ornamental gold dividers.
+Primary Color Palette (derived from logo):
+
+Deep Islamic Green — #0E4B3A (primary brand color, headers, buttons, nav)
+Gold/Antique Gold — #C9A227 (accents, borders, icons, CTAs, dividers)
+Cream/Off-White — #FBF8F1 (backgrounds)
+Charcoal/Near-black — #1A1A1A (body text)
+White — #FFFFFF
+
+
+
+Typography: An elegant serif font (like Playfair Display or Cormorant) for headings to match the logo's calligraphic feel, paired with a clean modern sans-serif (like Inter or Poppins) for body text.
+Visual motifs to reuse across the site: Islamic geometric patterns, arch shapes, crescent-and-star accents, gold thin-line dividers — all echoing the logo. Use these as subtle section dividers, background textures (low opacity), and card borders.
+
+
+Do NOT use any teacher photos or images of people on the site — no student/teacher photography anywhere.
+
+Images to use (provided by client):
+
+
+Academy logo (horizontal version) — use in header and footer.
+Hifz certificate/Sanad image — display in an "Our Credentials / Certifications" section as proof of the academy's authenticity, styled nicely in a frame with a short caption (e.g., "Certified Ijazah in Hifz-ul-Quran").
+HEC (Higher Education Commission of Pakistan) equivalence certificate letter — display in the same Credentials section as further proof of qualification, styled nicely with a short caption.
+
+
+
+TARGET AUDIENCE
+
+Parents and adult learners based mainly in the United States and Australia looking for a trustworthy, structured, native/qualified Quran teacher for their children or themselves, online. Tone should be professional, reassuring, and modern — not overly salesy. Pricing must be shown in US Dollars ($) only. Mention that class timing is flexible and scheduled according to the student's own country/timezone.
+
+
+SITE STRUCTURE (7 Pages)
+
+Each page should be reasonably content-rich and scrollable (not a single short screen) — multiple sections per page, generous spacing, and smooth scroll-based animations.
+
+1. Home Page
+
+
+Hero Banner: Full-width, attractive, 3D/animated hero section with the academy logo, a strong headline (e.g., "Learn the Quran Online with Certified, Experienced Teachers") and subheadline, a primary CTA button ("Book a Class" / "View Plans") and secondary CTA ("Contact Us on WhatsApp"). Include animated Islamic geometric/particle background or subtle floating crescent/star elements — tasteful, not overdone.
+Why Choose Us section (4–6 feature cards: Certified Teachers, 7+ Years Experience, Flexible Timing per Timezone, One-on-One Classes, Noorani Qaida to Hifz, Male & Female Teacher Options)
+Our Courses short preview section (Nazra, Hifz, Noorani Qaida) linking to Courses page
+Meet Our Teachers short preview (names + short bio, no photos) linking to Teachers page
+Pricing Preview (3 plan cards) linking to Pricing page
+Testimonials/Trust section (placeholder-style — generic trust badges: "Trusted by Families in USA & Australia," "Certified Hifz Ijazah," "HEC Recognized Qualification")
+Certifications strip showing the certificate images small, linking to full Credentials section
+Call-to-action banner before footer ("Ready to start your Quran journey?")
+
+
+2. About Us Page
+
+
+Academy story/mission — write 3–4 solid paragraphs about Umair Quran Academy's mission to make authentic Quran education accessible worldwide online, values (Ikhlas, discipline, tradition + modern convenience), and commitment to quality teaching for the Muslim diaspora in the USA, Australia, and beyond.
+Our Vision & Mission (2 cards or columns)
+Our Approach to Teaching (Tajweed-focused, personalized pace, respectful environment)
+Certifications/Credentials section with both certificate images displayed attractively (framed, with captions)
+
+
+3. Courses Page
+
+Detailed sections for each course, written out fully:
+
+
+Noorani Qaida — for absolute beginners; correct pronunciation of Arabic letters, basic Tajweed rules, foundation before Quran reading. Include duration expectation, who it's for, what's covered.
+Quran Nazra (Reading) — learning to read the Holy Quran fluently with correct Tajweed rules, word-by-word reading practice, correction of pronunciation.
+Hifz-ul-Quran (Memorization) — structured memorization program with daily Sabaq (new lesson), Sabqi (recent revision), and Manzil (old revision) system; taught by an Ijazah-certified Hafiz.
+Tajweed Rules (can be offered as an add-on/mentioned within Nazra course)
+Each course block should include: description, who it's suitable for, class frequency, and a "Learn More / Enroll" CTA.
+
+
+4. Pricing / Plans Page
+
+Three pricing plan cards, styled attractively with the gold/green theme, monthly pricing, no free trial. Structure:
+
+PlanPriceSuggested InclusionsBasic Plan$80 / month4 classes per week (Mon–Fri, Sat & Sun off), 30-minute one-on-one sessions, Noorani Qaida or Nazra, flexible timing per student's timezone, progress tracking, WhatsApp supportStandard Plan$100 / monthEverything in Basic + Tajweed-focused correction, 45-minute sessions, monthly progress report, choice of male or female teacherPremium Plan$150 / monthEverything in Standard + Hifz-ul-Quran program, extended 60-minute sessions, priority scheduling, dedicated senior teacher, monthly parent consultation call
+
+
+Clearly state: "No free trial available — all plans require advance payment."
+Add a small FAQ under pricing: payment methods, cancellation policy, rescheduling policy, timezone scheduling explanation.
+Each plan card should have a "Choose This Plan" button linking to the Contact/Enroll page.
+
+
+5. Our Teachers Page
+
+No photos — use elegant text-based profile cards (with an Islamic icon/avatar illustration instead of real photos, e.g., a simple geometric/crescent avatar icon).
+
+
+Teacher Umair (Male Teacher) — Qualified Hafiz-e-Quran with an Ijazah in Hifz-ul-Quran, over 7 years of teaching experience instructing students of all ages in Noorani Qaida, Nazra, and Hifz. Known for a patient, structured teaching style with strong focus on correct Tajweed and building students' confidence in recitation. Has taught students across Pakistan and internationally, including in the USA and Australia, adapting class timing to each family's timezone.
+Mam Fatima (Female Teacher) — Experienced female Quran instructor with 7+ years of teaching experience, specializing in teaching Noorani Qaida, Nazra, and Tajweed to children and adult women learners. Known for her gentle, encouraging teaching approach, especially suited for young children and female students who prefer a female instructor. Fluent in explaining Quranic rules in a simple, easy-to-understand way for non-Arabic-speaking, overseas families.
+Mention both teachers combined have helped families across the USA, Australia, and worldwide learn the Quran online in a comfortable, one-on-one setting.
+Class schedule note: 4 classes per week, Saturday & Sunday off, timing selected according to the student's own country/timezone at the time of enrollment.
+
+
+6. Certificates / Credentials Page (or section merged into About)
+
+
+Feature both provided certificate images large and clearly, with short explanatory captions:
+
+Hifz-ul-Quran Ijazah/Sanad certificate — issued proof of Hifz qualification.
+HEC (Higher Education Commission, Pakistan) equivalence certificate — confirming the academic recognition of the academy's founder's Islamic studies qualification.
+
+
+
+Short paragraph reassuring parents that the academy's teachers are formally certified and their credentials are officially recognized.
+
+
+7. Contact Us Page
+
+
+Contact form (Name, Email, Phone/WhatsApp, Message, Preferred Plan dropdown) — on submission, the message must be sent/delivered to this email: umairquranacademy.pk@gmail.com
+WhatsApp direct contact button: +92 304 7634342 (click-to-chat link: https://wa.me/923047634342)
+Email: umairquranacademy.pk@gmail.com
+Address: Bahawalpur, Punjab, Pakistan
+Embed a simple map or styled address block (Google Maps embed for Bahawalpur, Pakistan, is optional if the agent supports it)
+Office/response hours note and a friendly closing message encouraging visitors to reach out on WhatsApp for the fastest response.
+
+
+
+HEADER
+
+
+Sticky/fixed header on scroll, cream or white background with a subtle bottom border/shadow in gold.
+Left: Academy logo (horizontal version, as provided).
+Center/Right: Navigation menu — Home | About | Courses | Pricing | Teachers | Credentials | Contact
+Right-most: A prominent "Book a Class" or "WhatsApp Us" CTA button in deep green with gold hover accent.
+Mobile: collapse into a clean hamburger menu with smooth slide-in animation, logo remains visible.
+
+
+FOOTER
+
+
+Deep green background with gold text/icon accents and subtle Islamic geometric pattern texture.
+Columns:
+
+Logo + short academy tagline + social icons (placeholders)
+Quick Links (all 7 pages)
+Courses (Noorani Qaida, Nazra, Hifz)
+Contact Info: WhatsApp +92 304 7634342, Email umairquranacademy.pk@gmail.com, Address: Bahawalpur, Punjab, Pakistan
+
+
+
+Bottom bar: copyright line "© 2026 Umair Quran Academy. All rights reserved." with a thin gold divider above it.
+
+
+
+FUNCTIONAL REQUIREMENTS
+
+
+Fully mobile-responsive (test breakpoints for mobile, tablet, desktop).
+Smooth scroll and on-scroll fade/slide-in animations for sections.
+Attractive animated hero banner (3D/parallax or subtle motion graphics using the Islamic arch/crescent motif from the logo).
+Contact form must actually send submissions to umairquranacademy.pk@gmail.com (use a working form backend such as Formspree, EmailJS, or the agent's built-in form-to-email capability).
+WhatsApp click-to-chat button (https://wa.me/923047634342) placed in header, hero, and contact page.
+Fast loading, clean code, SEO-friendly titles/meta descriptions per page (targeting keywords like "online Quran academy," "learn Quran online USA," "Quran classes online Australia," "Hifz classes online").
+Currency displayed in USD ($) only throughout pricing.
+No free trial anywhere on the site — always show "Advance payment required" messaging near pricing.
+Do not include any real teacher or student photographs anywhere on the site.
+
+
+
+CONTENT TONE
+
+Warm, respectful, trustworthy, and professional — written in clear English suitable for a Western-based Muslim audience (USA/Australia), while still reflecting authentic Islamic values and terminology (Tajweed, Ijazah, Sabaq/Sabqi/Manzil, Hifz, Nazra, Noorani Qaida) explained simply for readers who may not be familiar with all the terms.

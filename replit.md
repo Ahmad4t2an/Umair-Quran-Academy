@@ -1,45 +1,51 @@
-# [Project name]
+# Umair Quran Academy
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A professional 7-page website for an online Islamic Quran learning academy targeting Muslim families in the USA and Australia.
 
 ## Run & Operate
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+- `pnpm --filter @workspace/umair-quran-academy run dev` — run the website (port assigned by workflow)
+- `pnpm --filter @workspace/umair-quran-academy run build` — production build (outputs to `artifacts/umair-quran-academy/dist/public/`)
+- `pnpm --filter @workspace/umair-quran-academy run typecheck` — typecheck the frontend
 
 ## Stack
 
 - pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
+- Frontend: React + Vite + Tailwind CSS v4
+- Routing: Wouter
+- Animations: Framer Motion
+- Fonts: Playfair Display (headings) + Inter (body) — Google Fonts
+- Contact form: Formspree (POST to `https://formspree.io/f/xpwzglyb`)
+- No backend — fully static site
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/umair-quran-academy/src/pages/` — 7 page components (home, about, courses, pricing, teachers, credentials, contact)
+- `artifacts/umair-quran-academy/src/components/layout/Shell.tsx` — sticky header + footer
+- `artifacts/umair-quran-academy/public/assets/` — logo, Hifz certificate, HEC certificate
+- `artifacts/umair-quran-academy/src/App.tsx` — wouter routes
 
-## Architecture decisions
+## Brand
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- Deep Islamic Green: `#0E4B3A`
+- Antique Gold: `#C9A227`
+- Cream: `#FBF8F1`
+- Charcoal: `#1A1A1A`
+- Headings: Playfair Display, Body: Inter
 
-## Product
+## Vercel Deployment
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+Deploy the `artifacts/umair-quran-academy` folder. Build command: `pnpm run build`. Output: `dist/public`. No environment variables required (the Vite config defaults gracefully without PORT/BASE_PATH).
 
-## User preferences
+## Contact Info (in site content)
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+- WhatsApp: https://wa.me/923047634342 (+92 304 7634342)
+- Email: umairquranacademy.pk@gmail.com
+- Address: Bahawalpur, Punjab, Pakistan
+- Formspree endpoint: `https://formspree.io/f/xpwzglyb` (replace with real form ID from formspree.io)
 
-## Gotchas
+## User Preferences
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
-
-## Pointers
-
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+- No photographs of people anywhere on the site
+- Pricing in USD ($) only
+- No free trial messaging throughout
