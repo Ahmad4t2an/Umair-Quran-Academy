@@ -47,7 +47,7 @@ export default function Header() {
               src="/assets/logo-green.png"
               alt="Umair Quran Academy"
               className="h-14 w-auto object-contain"
-              style={{ filter: 'drop-shadow(0 2px 6px rgba(201,162,39,0.3))' }}
+              style={{  }}
             />
           </Link>
 

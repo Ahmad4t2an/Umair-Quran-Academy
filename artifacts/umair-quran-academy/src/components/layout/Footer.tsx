@@ -19,7 +19,7 @@ export default function Footer() {
                 src="/assets/logo-green.png"
                 alt="Umair Quran Academy"
                 className="h-16 w-auto object-contain"
-                style={{ filter: 'drop-shadow(0 2px 8px rgba(201,162,39,0.4))' }}
+                style={{  }}
               />
             </Link>
             <p className="text-white/70 font-serif text-sm leading-relaxed mt-2">
